@@ -2,11 +2,11 @@
 
 ## Project Description
 
-Sparkify is a music streaming app which is interested in analyzing the data they've been collecting on songs and its users' activity. The analytics team is particularly interested in understanding what songs users are listening to. 
+Sparkify is a mock music streaming app which is interested in analyzing the data they've been collecting on songs and its users' activity. The analytics team is particularly interested in understanding what songs users are listening to. 
 
 To this end, an easy way to query their data is required. Their data currently reside in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs in their app. Accommodating their data in a Postgres database would enable their team to query their data much easier and gain powerful insights in their users' activity.
 
-In this project, we model the data by defining a star schema with its fact and dimension tables and we write an ETL pipeline that transfers data from files in two local directories into these tables in Postgres using Python and SQL.
+In this Udacity project, we model the data by defining a star schema with its fact and dimension tables and we write an ETL pipeline that transfers data from files in two local directories into these tables in Postgres using Python and SQL.
 
 ## Datasets
 
